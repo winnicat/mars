@@ -1,11 +1,11 @@
 {
   "name": "win-mars",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "白素 <baisu.wang@tuya.com>",
   "license": "ISC",
-  "main": "lib/mars.js",
+  "main": "lib/win-mars.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -13,16 +13,15 @@
   "files": [
     "lib"
   ],
-  "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "yarn build"
-  },
-  "dependencies": {
-    "@mars/icons": "^0.0.1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/winnicat/mars.git"
+    "url": "git+https://github.com/winnicat/mars.git"
   },
-  "gitHead": "058a228c3e2d9ed859cd5963a1c3e82fd4e2a707"
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/winnicat/mars/issues"
+  },
+  "homepage": "https://github.com/winnicat/mars#readme"
 }

@@ -1,11 +1,11 @@
-# `@mars/icons`
+# `win-mars`
 
 > TODO: description
 
 ## Usage
 
 ```
-const icons = require('@mars/icons');
+const winMars = require('win-mars');
 
 // TODO: DEMONSTRATE API
 ```
